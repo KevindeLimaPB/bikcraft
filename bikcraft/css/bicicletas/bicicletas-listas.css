@@ -5,12 +5,6 @@
 
 .bicicletas-lista h2 {
     margin-bottom: 40px;
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bicicletas-lista-items {
@@ -21,6 +15,10 @@
     margin-left: auto;
     margin-right: auto;
     overflow: auto;/*cria uma barrinha para mexer*/
+}
+
+#bicicleta .bicicletas-lista-items {
+    padding: 0px 0px 20px 0px;
 }
 
 .bicicletas-lista-items li {
